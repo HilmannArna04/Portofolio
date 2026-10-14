@@ -1408,34 +1408,97 @@ img {
 
 /* For medium devices <> */
 
-@media (width >=540px) {
-
-  .nav__menu {
-    width: 50%;
+/*=============== MOBILE FIXES (DEVICE KECIL) ===============*/
+@media (width <= 576px) {
+  /* Fix Teks Judul & Subtitle supaya tidak keluar layar */
+  .subtitle-name,
+  .home__title-main,
+  .home__title-role {
+    white-space: normal !important;
+    word-break: break-word;
   }
 
-  .home__container,
-  .about__container,
-  .services__container,
-  .skills__container,
-  .contact__container,
-  .footer__container{
-    display: grid;
+  .home__title {
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
+
+  /* Fix Foto Home biar lurus & rapi */
+  .home__images {
+    width: 220px;
+    height: 270px;
+  }
+
+  .home__box-1,
+  .home__box-2,
+  .home__box-3 {
+    width: 200px;
+    height: 250px;
+  }
+
+  .home__box-2 {
+    rotate: 3deg;
+  }
+
+  .home__box-3 {
+    rotate: 6deg;
+  }
+
+  .home__img {
+    width: 230px;
+    right: -0.5rem;
+  }
+
+  /* Fix About Section biar tidak miring/terpotong ke kiri */
+  .about__container {
+    transform: none !important;
     grid-template-columns: 1fr;
-    justify-items: center;
     text-align: center;
-    row-gap: 4rem;
+    row-gap: 2rem;
+    padding-inline: 1rem;
   }
 
-  .work__card {
-    width: 100%;
-  }
-
-  .skills__description {
-    width: 700px;
+  .about__title,
+  .about__description {
+    max-width: 100%;
     margin-inline: auto;
   }
 
+  /* Fix Gambar Sertifikat di Services */
+  .services__cert-wrapper,
+  .services__cert-img {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Fix Skills Card */
+  .skills__card {
+    flex-direction: column;
+    row-gap: 1.5rem;
+    padding: 1.5rem 1rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .skills__list {
+    justify-content: center;
+  }
+
+  .skills__description {
+    width: 100% !important;
+    padding-inline: 1rem;
+  }
+
+  /* Fix Contact Form & Links biar pas dengan layar HP */
+  .contact__group,
+  .contact__link {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Sembunyikan Custom Cursor di Layar Sentuh */
+  .cursor {
+    display: none !important;
+  }
 }
 
 /* For large devices <> */
