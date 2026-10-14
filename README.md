@@ -1,30 +1,63 @@
-# Responsive Portfolio Website Bianca
+# 🚀 Portfolio Web Personal — Mohammad Hilman Albarkati Arna
 
-This project is part of a step-by-step YouTube tutorial in which we build a responsive portfolio website Bianca from scratch using HTML, CSS and JavaScript.
+Selamat datang di repositori resmi website portofolio pribadi saya! Proyek ini dibuat untuk menampilkan perjalanan, keahlian, daftar proyek, serta sertifikasi saya sebagai seorang **Frontend Developer** dan **UX Enthusiast**.
 
-## 🎬 [Watch the Demo & Code](https://youtu.be/JSFIGIA9Zrk) 
+## 📌 Tentang Proyek
 
-![preview img](/preview.png) 
+Website ini dirancang dan dibangun untuk membangun *personal branding*, menampilkan *tech stack*, serta membuktikan hasil karya saya dalam antarmuka yang bersih, modern, dan interaktif. Fokus utama saya adalah **menghubungkan kode yang rapi dengan Pengalaman Pengguna (UX) yang nyaman dan intuitif**.
 
-## 📌 Project Features
-- Fully responsive portfolio website Bianca (Mobile First Methodology).
-- Clear and semantic HTML structure.
-- Use of CSS variables and modern JavaScript functions.
-- Smooth scrolling between sections.
-- Scroll animations.
-- Compatible with all modern browsers and devices.
+### ✨ Fitur Utama
 
-## 📦 Download the resources directly
-1. Click the green **code** button.
-2. Click **Download ZIP**.
-3. Extract the ZIP file and open the project in your code editor.
+* **Desain Responsif:** Tampilan optimal di berbagai ukuran layar (Desktop, Tablet, dan Smartphone).
+* **Efek Ketik Dinamis:** Teks animasi interaktif pada bagian hero menggunakan Typed.js.
+* **Showcase Proyek Interaktif:** Komposisi slider proyek yang mulus menggunakan SwiperJS.
+* **Accordion Sertifikat & Kompetisi:** Tampilan *dropdown* interaktif untuk menampilkan riwayat sertifikat lengkap dengan pratinjau gambar.
+* **Carousel Testimoni Infinite:** Animasi *looping* otomatis yang halus menggunakan CSS Keyframes.
+* **Formulir Kontak Berfungsi:** Integrasi langsung pengiriman pesan menggunakan EmailJS.
 
-## 📥 Clone or Fork the repository
-You can **clone** the repository to your local machine or **fork** it in your GitHub account to get all the project's resources.
+## 🛠️ Teknologi & Tools
 
-```bash
-# Clone the repository using HTTPS
-git clone https://github.com/bedimcode/responsive-porfolio-website-Bianca.git
+### Frontend & Core Stack
+
+* **Bahasa Pemrograman:** HTML5, CSS3, JavaScript
+* **Ikon & Tipografi:** Remixicon, Google Fonts (Poppins & Syne)
+* **Plugin / Library JS:** SwiperJS, Typed.js, ScrollReveal
+
+## 📂 Struktur Repositori
+
+```
+├── assets/
+│   ├── css/
+│   │   └── styles.css          # File styling utama dan variabel CSS
+│   ├── js/
+│   │   └── main.js             # Logika interaksi dan inisialisasi plugin
+│   └── img/                    # Aset gambar, ikon, dan foto sertifikat
+├── index.html                  # Struktur utama halaman web
+└── README.md                   # Dokumentasi proyek
 ```
 
-Designed & developed with ❤️ by **[Bedimcode](https://www.youtube.com/@Bedimcode)** 
+## 💻 Cara Menjalankan Proyek Secara Lokal
+
+Untuk menjalankan portofolio ini di komputer lokal Anda:
+
+1. **Clone repositori ini:**
+
+   ```bash
+   git clone https://github.com/HilmannArna04/NAMA_REPO_KAMU.git
+   ```
+
+2. **Masuk ke direktori proyek:**
+
+   ```bash
+   cd NAMA_REPO_KAMU
+   ```
+
+3. **Buka dengan Live Server:**
+
+   * Buka file `index.html` menggunakan ekstensi **Live Server** di VS Code / Cursor, atau cukup klik ganda file `index.html` untuk membukanya langsung di peramban (browser) Anda.
+
+## 📬 Kontak & Kolaborasi
+
+* **Email:** [albarkati04@email.com](mailto:albarkati04@email.com)
+* **WhatsApp:** [+62 857-3184-0717](https://wa.me/6285731840717)
+* **Lokasi:** Malang, Jawa Timur, Indonesia
